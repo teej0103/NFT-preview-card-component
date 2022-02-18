@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d192b;
+    font-family: Outfit, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: #14253d;
+    margin-top: auto;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 12px 8px 20px -1px rgba(0,0,0,0.39);
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 275px;
+}
+
+img{
+    width: 275px;
+    border-radius: 8px;
+}
+
+.info,
+.author {
+    color: #8bacda;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+}
+
+.content p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats > * {
+    display: flex;
+    gap: 5px;
+}
+
+
+.stats .left-side {
+    color: #00fff7;
+    font-size: 14px;
+}
+
+.stats img {
+    width: auto;
+}
+
+.stats .right-side {
+    font-size: 14px;
+}
+
+.author {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid #2f415b;
+    font-size: 14px;
+}
+
+.author img {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+}
+
+.author span {
+    color: white;
+}
+
+.attribution { 
+    font-size: 14px;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    color: white;
+}
+
+.attribution a:hover {
+    color: rgb(206, 206, 206);
+}
