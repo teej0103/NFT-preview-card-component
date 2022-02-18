@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-using-flexbox-e1ZKTIxMs]
-- Live Site URL: [https://teej0103.github.io/qr-code-component/]
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-component-card-preview-using-flexbox-_M-wE6QaI]
+- Live Site URL: [https://teej0103.github.io/NFT-preview-card-component/]
 
 ## My process
 
